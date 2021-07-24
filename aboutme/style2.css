@@ -27,7 +27,7 @@ html {
 .header {
   width: 100%;
   height: 700px;
-  background-image: url(./img/iasek.jpg);
+  background-image: url(../img/iasek.jpg);
   background-size: cover;
   -webkit-animation: fadefromleft 0.5s ease;
           animation: fadefromleft 0.5s ease;
@@ -371,7 +371,7 @@ p {
 }
 
 #skillbox {
-  background: url(./img/iasek.jpg);
+  background: url(../img/iasek.jpg);
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -webkit-box-align: center;
@@ -434,7 +434,7 @@ p {
 }
 
 .bgg {
-  background: url(./img/ao.jpg);
+  background: url(../img/ao.jpg);
 }
 
 .aboutme {
