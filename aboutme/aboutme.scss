@@ -1,10 +1,4 @@
-.dialog-1{
-  	height: 50px;
-  	width: 70px;
-  	background-color: hsl(0, 0%, 96%);
-  	position: absolute;
-  	border-radius: 10%;
-}
+
 .headerthree {
   background: radial-gradient(
     circle at 65% 15%,
@@ -13,6 +7,7 @@
     darkgreen 60%,
     aqua 100%
   );
+  
   animation: fadefromleft 0.5s ease;
   transition: 0.5s ease;
 

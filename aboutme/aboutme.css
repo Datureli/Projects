@@ -1,11 +1,3 @@
-.dialog-1 {
-  height: 50px;
-  width: 70px;
-  background-color: whitesmoke;
-  position: absolute;
-  border-radius: 10%;
-}
-
 .headerthree {
   background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkgreen 60%, aqua 100%);
   -webkit-animation: fadefromleft 0.5s ease;
