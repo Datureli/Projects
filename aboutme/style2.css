@@ -204,30 +204,35 @@ p {
   color: #0f0101;
 }
 
+.fa-github:hover,
+.fa-video:hover {
+  color: black;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.fa-github {
+  color: #3d3636;
+  font-size: 60px;
+  z-index: 5;
+  position: absolute;
+  left: 87%;
+  top: 80%;
+}
+
+.fa-video {
+  color: #3d3636;
+  font-size: 60px;
+  z-index: 5;
+  position: absolute;
+  left: 75%;
+  top: 80%;
+}
+
+#crossfade2 .img-fluid,
 #crossfade .img-fluid {
   -webkit-box-shadow: 0px 0px 16px 0px #0f0101;
           box-shadow: 0px 0px 16px 0px #0f0101;
-}
-
-#crossfade2 .img-fluid {
-  -webkit-box-shadow: 0px 0px 16px 0px #0f0101;
-          box-shadow: 0px 0px 16px 0px #0f0101;
-}
-
-#crossfade > img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-#crossfade2 > img {
-  width: 95%;
-  height: 100%;
-  position: absolute;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 @-webkit-keyframes crossfad2 {
