@@ -49,6 +49,8 @@
 }
 
 #git {
+  display: -ms-grid;
+  display: grid;
   width: 100%;
   height: 183px;
   background-color: red;
@@ -60,10 +62,12 @@
 }
 
 #git .fa-github {
-  margin-top: 5px;
+  margin-top: 15px;
   color: whitesmoke;
   width: 70px;
   height: 70px;
   cursor: pointer;
+  left: 48%;
+  top: 90%;
 }
 /*# sourceMappingURL=projectstyle.css.map */
