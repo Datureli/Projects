@@ -373,7 +373,7 @@ p {
 }
 
 #skillbox {
-  background: url(../img/iasek.jpg);
+  background: black;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -webkit-box-align: center;
@@ -403,6 +403,11 @@ p {
           filter: opacity(110%);
   -webkit-filter: contrast(150%);
           filter: contrast(150%);
+}
+
+#skillbox svg {
+  display: block;
+  position: fixed;
 }
 
 @-webkit-keyframes pulse {
@@ -568,8 +573,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, left top, right top, from(#3a484e), color-stop(#000000), to(#88136f));
-  background: linear-gradient(0.25turn, #3a484e, #000000, #88136f);
+  background: white;
   text-align: center;
 }
 
@@ -578,18 +582,17 @@ p {
   height: 350px;
   border-radius: 50%;
   border: 1vh solid silver;
-  margin-left: 14vh;
-  margin-top: 4vh;
+  margin-left: 16vh;
 }
 
 .aboutme h1 {
-  margin-left: 12vh;
+  margin-left: 14vh;
   margin-bottom: 0;
 }
 
 .aboutme .img-fluid p {
   color: grey;
-  margin-left: 10vh;
+  margin-left: 15vh;
   margin-bottom: 15vh;
 }
 
@@ -597,10 +600,10 @@ p {
   margin-top: 10vh;
   width: 120px;
   height: 300px;
-  border-right: 2px solid white;
+  border-right: 2px solid black;
 }
 
-.foot {
+.footerMargin {
   margin: 0;
 }
 
@@ -771,6 +774,9 @@ p {
 }
 
 @media all and (max-width: 990px) {
+  .myGoals {
+    display: none;
+  }
   :target > .modal__body {
     pointer-events: auto;
     opacity: 1;
