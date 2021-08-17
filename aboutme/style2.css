@@ -760,7 +760,7 @@ p {
   color: #d5d5d5;
 }
 
-.ss {
+.contactInformation {
   margin-left: 10vh;
   text-align: center;
   width: 600px;
@@ -768,7 +768,7 @@ p {
   border-bottom: 1px solid white;
 }
 
-.ss h2 {
+.contactInformation h2 {
   color: white;
   font-size: 40px;
 }
@@ -917,7 +917,7 @@ p {
     margin: 0;
     padding: auto;
   }
-  .ss {
+  .contactInformation {
     width: 100%;
     margin: 0;
   }
