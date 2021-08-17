@@ -1,3 +1,7 @@
+body {
+  overflow-y: hidden;
+}
+
 .headerthree {
   background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkgreen 60%, aqua 100%);
   -webkit-animation: fadefromleft 0.5s ease;
@@ -12,7 +16,7 @@
   color: white;
 }
 
-#aboutme {
+#aboutMe {
   margin-left: 20px;
   width: 100%;
   display: -webkit-box;
@@ -20,20 +24,20 @@
   display: flex;
 }
 
-#aboutme img {
+#aboutMe img {
   width: 300px;
   height: 400px;
   border-radius: 10px;
 }
 
-.personalinfo {
+.personalInfo {
   margin-top: 70px;
   width: 400px;
   height: 400px;
   white-space: nowrap;
 }
 
-.personalinfo h4 {
+.personalInfo h4 {
   color: white;
   font: bold 300% Consolas, Monaco, monospace;
   font-weight: 700;
@@ -45,32 +49,32 @@
           animation: typing 2s steps(31, end), blink-caret 0.5s infinite step-end, border-none 8s forwards;
 }
 
-.personalinfo .secondtype,
-.personalinfo .thirdtype,
-.personalinfo .fourtype,
-.personalinfo .fivetype,
-.personalinfo .sixtype {
+.personalInfo .secondtype,
+.personalInfo .thirdtype,
+.personalInfo .fourtype,
+.personalInfo .fivetype,
+.personalInfo .sixtype {
   font: bold 200% Consolas, Monaco, monospace;
   border-right: 0.1em solid green;
   opacity: 0;
   color: black;
 }
 
-.personalinfo .secondtype {
+.personalInfo .secondtype {
   width: 13.5em;
   width: 11ch;
   -webkit-animation: 2s typing 2s steps(31, end), blink-caret 0.5s infinite step-end, border-none 8s forwards, 1s display-none 2s forwards;
           animation: 2s typing 2s steps(31, end), blink-caret 0.5s infinite step-end, border-none 8s forwards, 1s display-none 2s forwards;
 }
 
-.personalinfo .thirdtype {
+.personalInfo .thirdtype {
   width: 13.5em;
   width: 7ch;
   -webkit-animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end, border-none 8s forwards, 1s display-none 2s forwards;
           animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end, border-none 8s forwards, 1s display-none 2s forwards;
 }
 
-.personalinfo .fourtype {
+.personalInfo .fourtype {
   width: 13.5em;
   width: 19ch;
   overflow: hidden;
@@ -78,7 +82,7 @@
           animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end alternate, border-none 8s forwards, 3s display-none 2s forwards;
 }
 
-.personalinfo .fivetype {
+.personalInfo .fivetype {
   width: 13.5em;
   width: 25ch;
   overflow: hidden;
@@ -86,9 +90,9 @@
           animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end alternate, border-none 8s forwards, 1s display-none 2s forwards;
 }
 
-.personalinfo .sixtype {
+.personalInfo .sixtype {
   width: 13.5em;
-  width: 16ch;
+  width: 20ch;
   overflow: hidden;
   -webkit-animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end alternate, border-none 8s forwards, 1s display-none 2s forwards;
           animation: 2s typing 2s steps(21, end), blink-caret 0.5s infinite step-end alternate, border-none 8s forwards, 1s display-none 2s forwards;
@@ -139,7 +143,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 18px;
+  padding: 12px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -148,8 +152,8 @@
 }
 
 #techn img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   margin: 0px 40px 0px 50px;
   border-radius: 50%;
 }
@@ -263,7 +267,7 @@
 }
 
 @media all and (max-width: 990px) {
-  #aboutme {
+  #aboutMe {
     font-size: 15px;
     width: 100%;
     height: 100%;
@@ -275,7 +279,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #aboutme img {
+  #aboutMe img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -327,7 +331,7 @@
   .line {
     display: none;
   }
-  .personalinfo {
+  .personalInfo {
     margin-top: 50px;
     width: 400px;
     height: 100%;

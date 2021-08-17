@@ -372,7 +372,7 @@ p {
           animation: crossfad 2s ease forwards;
 }
 
-#skillbox {
+#mySkillBox {
   background: black;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
@@ -393,19 +393,19 @@ p {
           filter: contrast(150%);
 }
 
-#skillbox:hover .img {
+#mySkillBox:hover .img {
   -webkit-animation: pulse 5s forwards infinite;
           animation: pulse 5s forwards infinite;
 }
 
-#skillbox:hover {
+#mySkillBox:hover {
   -webkit-filter: opacity(110%);
           filter: opacity(110%);
   -webkit-filter: contrast(150%);
           filter: contrast(150%);
 }
 
-#skillbox svg {
+#mySkillBox svg {
   display: block;
   position: fixed;
 }
