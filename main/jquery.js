@@ -1,16 +1,3 @@
-//preaload screen
-$(document).ready(function () {
-  setTimeout(function () {
-    $(".wrapper").addClass("loaded");
-  }, 1800);
-});
-// remove preaload
-jQuery(function () {
-  $(window).load(function () {
-    $(".wrapper").removeClass("preload");
-  });
-});
-
 $(document).ready(function () {
   $(window).scroll(function () {
     $(".hideme").each(function (i) {
