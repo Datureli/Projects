@@ -21,14 +21,8 @@ html {
 
 .header {
   height: 720px;
-  bbackground: #24d6b9;
-  background: -webkit-gradient(linear, left top, right top, color-stop(6%, #24d6b9), color-stop(37%, black), color-stop(65%, #031210), color-stop(78%, #24d6b9));
-  background: linear-gradient(90deg, #24d6b9 6%, black 37%, #031210 65%, #24d6b9 78%);
-  background-size: cover;
-  -webkit-animation: fadefromleft 0.5s ease;
-          animation: fadefromleft 0.5s ease;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  background: -webkit-gradient(linear, left top, right top, color-stop(6%, #24d6b9), color-stop(37%, black), color-stop(65%, black), color-stop(78%, #24d6b9));
+  background: linear-gradient(90deg, #24d6b9 6%, black 37%, black 65%, #24d6b9 78%);
 }
 
 #home {
@@ -153,7 +147,7 @@ li a:hover {
 }
 
 .carousel-caption {
-  top: 250px;
+  top: 230px;
   -webkit-animation: fadefromdown 1.5s ease;
           animation: fadefromdown 1.5s ease;
 }
@@ -601,7 +595,8 @@ footer {
   border-bottom: 1px solid #5726ca;
 }
 
-.contact .contactme input, .contact .sendmessage input {
+.contact .contactme input,
+.contact .sendmessage input {
   width: 400px;
   background: none;
   border: none;
@@ -628,7 +623,7 @@ footer {
 }
 
 #form.invalid .inputBox:before {
-  content: '';
+  content: "";
   position: absolute;
   margin-left: 410px;
   width: 30px;
@@ -638,7 +633,7 @@ footer {
 }
 
 #form.valid .inputBox:before {
-  content: '';
+  content: "";
   position: absolute;
   margin-left: 410px;
   width: 30px;
@@ -811,9 +806,10 @@ footer {
     font-size: 110px;
   }
   .carousel-caption {
-    top: 150px;
+    top: 230px;
   }
-  nav ul li, nav ul ul li {
+  nav ul li,
+  nav ul ul li {
     display: inline-block;
     width: 100%;
   }
