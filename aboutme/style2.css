@@ -13,10 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.padding {
-  padding-bottom: 3rem;
-}
-
 .lead {
   font-size: 30px;
   font-weight: 700;
@@ -51,8 +47,7 @@ html {
 }
 
 .navbar-brand {
-  font-size: 35px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
   color: white;
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
@@ -147,11 +142,8 @@ ul li {
   margin-right: 25px;
 }
 
-nav ul li a:hover {
+li a:hover {
   color: #18a7a7;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px #027411, 0 0 10px #66ffff;
-          box-shadow: 0 0 5px #027411, 0 0 10px #66ffff;
 }
 
 .skill-box img {
@@ -163,21 +155,6 @@ nav ul li a:hover {
   top: 250px;
   -webkit-animation: fadefromdown 1.5s ease;
           animation: fadefromdown 1.5s ease;
-}
-
-.flags {
-  cursor: pointer;
-}
-
-.flags img {
-  width: 35px;
-  padding-bottom: 10px;
-  margin-right: 6px;
-}
-
-.flags img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
 }
 
 p {
@@ -440,10 +417,6 @@ p {
   }
 }
 
-.bgg {
-  background: url(../img/ao.jpg);
-}
-
 .modal {
   position: relative;
   display: -webkit-box;
@@ -607,15 +580,15 @@ p {
   margin: 0;
 }
 
+footer {
+  background-color: black;
+}
+
 .contact {
   width: 600px;
   height: 510px;
   border: 1px solid transparent;
   background: transparent;
-}
-
-.contact h3 {
-  margin-top: 8vh;
 }
 
 .contact .contactme {
@@ -706,15 +679,6 @@ p {
   display: flex;
   padding-left: 18vh;
   margin-top: 4vh;
-}
-
-.donate {
-  margin-top: 3vh;
-  margin-left: 10vh;
-  text-align: center;
-  width: 600px;
-  height: 140px;
-  border-bottom: 1px solid white;
 }
 
 .followme {
@@ -935,13 +899,6 @@ p {
     display: grid;
     padding: 0;
     width: 100%;
-  }
-  .donate {
-    width: 100%;
-    margin: 0;
-  }
-  .donate p {
-    margin: 0;
   }
   .followme {
     width: 100%;
