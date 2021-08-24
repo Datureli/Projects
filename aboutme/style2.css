@@ -20,9 +20,10 @@ html {
 }
 
 .header {
-  width: 100%;
-  height: 700px;
-  background-image: url(../img/iasek.jpg);
+  height: 720px;
+  bbackground: #24d6b9;
+  background: -webkit-gradient(linear, left top, right top, color-stop(6%, #24d6b9), color-stop(37%, black), color-stop(65%, #031210), color-stop(78%, #24d6b9));
+  background: linear-gradient(90deg, #24d6b9 6%, black 37%, #031210 65%, #24d6b9 78%);
   background-size: cover;
   -webkit-animation: fadefromleft 0.5s ease;
           animation: fadefromleft 0.5s ease;
@@ -810,8 +811,7 @@ footer {
     font-size: 110px;
   }
   .carousel-caption {
-    top: 280px;
-    font-size: 4vh;
+    top: 150px;
   }
   nav ul li, nav ul ul li {
     display: inline-block;
