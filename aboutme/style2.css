@@ -541,10 +541,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .aboutme img {
@@ -552,7 +548,7 @@ p {
   height: 350px;
   border-radius: 50%;
   border: 1vh solid silver;
-  margin-left: 16vh;
+  margin-left: 10vh;
 }
 
 .aboutme h1 {
@@ -575,7 +571,7 @@ p {
 
 footer {
   background-color: black;
-  border: 5px solid #FFFF00;
+  border: 5px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -803,10 +799,23 @@ footer {
   .aboutme {
     width: 100%;
     height: 100%;
+    margin: auto;
   }
   .aboutme p {
     font-size: 20px;
     margin: 5px;
+  }
+  .aboutme .img-fluid p {
+    margin-left: 0;
+  }
+  .aboutme img {
+    width: 350px;
+    height: 350px;
+    margin-left: 0vh;
+  }
+  .aboutme h1 {
+    margin-left: 0vh;
+    margin-bottom: 0;
   }
   .v1 {
     display: none;
@@ -816,10 +825,7 @@ footer {
   }
 }
 
-@media (min-width: 871px) and (max-width: 1200px) {
-  .myGoals {
-    display: none;
-  }
+@media (min-width: 870px) and (max-width: 1200px) {
   nav ul li,
   nav ul ul li {
     display: inline-block;
@@ -827,19 +833,16 @@ footer {
   }
   .aboutme {
     width: 100%;
-    border: 1vh solid red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .aboutme h1 {
-    margin-left: 3vh;
-    margin-bottom: 0;
-  }
-  .aboutme .img-fluid p {
-    color: grey;
-    margin-left: 3vh;
-    margin-bottom: 7vh;
+  .aboutme img {
+    width: 300px;
+    height: 300px;
   }
   .aboutme p {
-    font-size: 20px;
+    font-size: 22px;
     margin: 5px;
   }
   .aboutme .btn {
