@@ -154,6 +154,11 @@ li a:hover {
   color: white;
 }
 
+.softskills h2 {
+  font-size: 45px;
+  color: black;
+}
+
 .softskills .firstsoft {
   -webkit-animation: 4s fadefromdown 1s forwards ease;
           animation: 4s fadefromdown 1s forwards ease;
