@@ -1,5 +1,60 @@
 body {
-  overflow-y: hidden;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+#navbarNavAltMarkup {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.nav-item {
+  -webkit-animation: fadefromup 1.5s ease;
+          animation: fadefromup 1.5s ease;
+}
+
+@-webkit-keyframes fadefromup {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadefromup {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+ul li {
+  margin-right: 25px;
+}
+
+li a:hover {
+  color: #18a7a7;
 }
 
 .headertwo {
@@ -38,18 +93,6 @@ body {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
-}
-
-.procjets {
-  width: 1000px;
-  height: 700px;
-  border: 1vh solid red;
-}
-
-#project.clicked {
-  -webkit-animation: 3s fadefromleft 1.5s ease;
-          animation: 3s fadefromleft 1.5s ease;
-  background: red;
 }
 
 #git {

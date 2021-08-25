@@ -249,109 +249,7 @@ p {
     transform: scale(1);
   }
 }
-.modal {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 4s ease;
 
-  :target > &__body {
-    pointer-events: auto;
-    opacity: 1;
-    transform: translateY(0);
-    transition: 400ms ease-in;
-  }
-
-  :target > &__overlay {
-    pointer-events: auto;
-    opacity: 1;
-  }
-
-  &__body {
-    z-index: 3;
-    position: fixed;
-    background-color: whitesmoke;
-    pointer-events: none;
-    text-align: center;
-    justify-content: center;
-    border-radius: 5px;
-    width: 750px;
-    height: 230px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    transition: all 300ms ease;
-    top: 30%;
-    left: 23%;
-  }
-
-  &__btn-close {
-    text-decoration: none;
-    position: absolute;
-    right: 0.5rem;
-    top: 0.2rem;
-  }
-
-  &__overlay {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(500px);
-    background: rgba(255, 255, 255, 90%);
-    pointer-events: none;
-    opacity: 0;
-    transition: all 300ms ease;
-  }
-}
-
-#mystyle {
-  background: transparent;
-  height: 570px;
-  width: 100%;
-  display: flex;
-  margin: 0;
-  padding: 0;
-
-  p {
-    font-size: 15px;
-  }
-
-  .secondCvContainer {
-    margin: 0;
-    padding: 15px;
-    width: 200px;
-    height: 230px;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  }
-
-  i {
-    margin-right: 15px;
-  }
-  i span {
-    display: inline-block;
-    margin-left: 0.3rem;
-  }
-  h5 {
-    font-weight: 900;
-    padding: 5px;
-  }
-}
-
-.gotAnyJob {
-  margin: 25px auto;
-
-  h2 {
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  .fa-arrow-circle-left {
-    font-size: 110px;
-  }
-}
 
 .aboutme {
   width: 100%;
@@ -389,6 +287,7 @@ footer {
   border: 5px solid black;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .contact {
@@ -457,7 +356,7 @@ justify-content: center;
 
 .followme {
   width: 100%;
-  height: 50px;
+  height: 100%;
 }
 .fa-facebook,
 .fa-twitter,
@@ -493,104 +392,7 @@ justify-content: center;
     display: none;
   }
 
-  .modal {
-    :target > &__body {
-      pointer-events: auto;
-      opacity: 1;
-      transform: translateY(0);
-      transition: 400ms ease-in;
-    }
-
-    :target > &__overlay {
-      pointer-events: auto;
-      opacity: 1;
-    }
-
-    &__body {
-      z-index: 3;
-      position: fixed;
-      background-color: whitesmoke;
-      pointer-events: none;
-      text-align: center;
-      justify-content: center;
-      border-radius: 5px;
-      width: 400px;
-      height: 250px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      opacity: 0;
-      transition: all 300ms ease;
-      top: 30%;
-      left: 9%;
-    }
-
-    &__btn-close {
-      text-decoration: none;
-      position: absolute;
-      right: 0.5rem;
-      top: 0.2rem;
-    }
-
-    &__overlay {
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      filter: blur(500px);
-      background: rgba(255, 255, 255, 90%);
-      pointer-events: none;
-      opacity: 0;
-      transition: all 300ms ease;
-    }
-  }
-
-  #mystyle {
-    background: transparent;
-    height: 570px;
-    width: 100%;
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    p {
-      font-size: 15px;
-    }
-
-    .secondCvContainer {
-      margin: 0;
-      padding: 15px;
-      width: 320px;
-      height: 250px;
-      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    }
-
-    i {
-      margin-right: 15px;
-    }
-    i span {
-      display: inline-block;
-      margin-left: 0.3rem;
-    }
-    h5 {
-      font-weight: 900;
-      padding: 5px;
-    }
-  }
-
-  .gotAnyJob {
-    margin: 25px auto;
-
-    h2 {
-      margin-bottom: 20px;
-      padding: 0;
-      font-size: 30px;
-    }
-
-    .fa-arrow-circle-left {
-      font-size: 110px;
-    }
-  }
+  
 
   .carousel-caption {
     top: 230px;
