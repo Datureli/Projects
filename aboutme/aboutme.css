@@ -30,6 +30,54 @@ body {
   border-radius: 10px;
 }
 
+.nav-link {
+  color: white;
+}
+
+#navbarNavAltMarkup {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.nav-item {
+  -webkit-animation: fadefromup 1.5s ease;
+          animation: fadefromup 1.5s ease;
+}
+
+@-webkit-keyframes fadefromup {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadefromup {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+ul li {
+  margin-right: 25px;
+}
+
+li a:hover {
+  color: #18a7a7;
+}
+
 .personalInfo {
   margin-top: 70px;
   width: 400px;
