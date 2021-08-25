@@ -2,7 +2,6 @@ body {
   overflow-y: hidden;
 }
 
-
 .headerthree {
   background: radial-gradient(
     circle at 65% 15%,
@@ -234,23 +233,16 @@ body {
 
   }
   .btn {
-    width: 70px;
-    height: 70px;
-    font-size: 25px;
-    padding: 0.9rem 0;
+    width: 60px;
+    height: 60px;
+    font-size: 23px;
+    padding: 0.8rem 0;
     cursor: pointer;
     position: fixed;
     border-radius: 50%;
     z-index: 10;
   }
-
-
-  i span {
-    display: inline-block;
-    margin-left: 0.3rem;
-  }
   
-
   .softskills {
     width: 100%;
     height: 110%;

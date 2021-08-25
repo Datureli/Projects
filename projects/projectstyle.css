@@ -53,16 +53,10 @@ body {
 }
 
 #git {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  height: 153px;
-  padding: -20px;
-  background-color: red;
+  display: inline-block;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 153px;
+  background-color: red;
 }
 
 #git .fa-github {
@@ -78,14 +72,14 @@ body {
   #git {
     display: -ms-grid;
     display: grid;
-    height: 253px;
+    height: 143px;
   }
   #git .fa-github {
     color: whitesmoke;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
-    left: 80%;
+    left: 45%;
     top: 89%;
   }
 }
