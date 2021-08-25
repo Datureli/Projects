@@ -25,7 +25,6 @@ html {
   );
 }
 
-
 #home {
   animation: fadefromleft 0.5s ease;
   transition: 0.5s ease;
@@ -358,8 +357,8 @@ p {
   width: 100%;
   height: 500px;
   display: flex;
-  background: white;
   text-align: center;
+  justify-content: center;
 
   img {
     width: 350px;
@@ -386,15 +385,16 @@ p {
   border-right: 2px solid black;
 }
 
-.footerMargin {
-  margin: 0;
-}
-
 footer {
   background-color: black;
+  border: 5px solid #FFFF00;
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
+text-align: center;
+justify-content: center;
   .contactme {
     width: 400px;
     border-bottom: 1px solid rgb(87, 38, 202);
@@ -456,23 +456,16 @@ footer {
   background-size: cover;
 }
 
-.cnt {
-  display: flex;
-  padding-left: 18vh;
-  margin-top: 4vh;
-}
 .followme {
-  margin-left: 10vh;
-  width: 600px;
+  width: 100%;
   height: 50px;
-  display: flex;
 }
 .fa-facebook,
 .fa-twitter,
 .fa-google-plus-g,
 .fa-instagram,
 .fa-youtube {
-  font-size: 10vh;
+  font-size: 7vh;
   margin: 1rem;
 }
 .fa-facebook {
@@ -495,19 +488,8 @@ footer {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
-.contactInformation {
-  margin-left: 12vh;
-  width: 500px;
-  height: 50px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  h2 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-  }
-}
 
-@media all and (max-width: 990px) {
+@media all and (max-width: 870px) {
   .myGoals {
     display: none;
   }
@@ -619,105 +601,54 @@ footer {
     display: inline-block;
     width: 100%;
   }
+
   .aboutme {
     width: 100%;
     height: 100%;
-  }
-  .aboutme .img-fluid {
-    width: 100%;
-    margin-right: 15vh;
-    text-align: center;
-    padding-top: 4vh;
 
-    .img-fluid h1 {
-      margin-right: 6vh;
-    }
     p {
-      width: 100%;
-      margin-bottom: 0;
-      margin-left: 6vh;
-      text-align: center;
+    font-size: 20px;
+      margin: 5px;
     }
   }
   .v1 {
     display: none;
   }
   .aboutme .btn {
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
+  }
+}
+@media(min-width: 871px) and (max-width: 1200px) {
+  .myGoals {
+    display: none;
   }
 
-  #mySkillBox {
-    grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .container .contact {
-    width: 100%;
-    margin: 0;
-    padding: auto;
-  }
-  .contactInformation {
-    width: 100%;
-    margin: 0;
-  }
-  .contactmethods {
-    font-size: 15px;
-  }
-  .contactmethods2 {
-    width: 100%;
-    margin: 0;
-  }
-  .cnt {
-    grid-template-columns: repeat(3, 1fr);
-    display: grid;
-    padding: 0;
+  nav ul li,
+  nav ul ul li {
+    display: inline-block;
     width: 100%;
   }
 
-  .followme {
+  .aboutme {
     width: 100%;
-    margin: 0;
-    height: 40px;
-  }
-  .fa-facebook,
-  .fa-twitter,
-  .fa-google-plus-g,
-  .fa-instagram,
-  .fa-youtube {
-    width: 100%;
-    font-size: 6vh;
-    margin: 1rem;
-  }
-  .navbar-brand {
-    font-size: 25px;
-  }
-  #textfade {
-    text-align: center;
-    margin: auto;
-    padding: 0;
-  }
-  #textfade2 {
-    text-align: center;
-    margin: auto;
-    padding: 0;
-    opacity: 1;
-  }
-  #crossfade2 > img {
-    width: auto;
-    height: auto;
-    position: relative;
-    backface-visibility: hidden;
-  }
-  #crossfade > img {
-    width: auto;
-    height: auto;
-    position: relative;
-    backface-visibility: hidden;
-  }
-  .adding {
-    margin-left: 5vh;
-    margin-top: 5vh;
-    width: 100%;
+    border: 1vh solid red;
+
+    h1 {
+      margin-left: 3vh;
+      margin-bottom: 0;
+    }
+    .img-fluid p {
+      color: grey;
+      margin-left: 3vh;
+      margin-bottom: 7vh;
+    }
+ 
+    p {
+    font-size: 20px;
+      margin: 5px
+    }
+    .btn {
+      margin-bottom: 8vh;
+    }
   }
 }
