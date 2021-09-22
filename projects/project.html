@@ -65,12 +65,20 @@
   <div class="swiper-container">
     
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background-image:url(../img/validation.png)">
-        <a href="https://github.com/Datureli"></a>
+      <div class="swiper-slide">
+        <img src="../img/hello-world.png" alt="">
       </div>
-      <div class="swiper-slide" style="background-image:url(../img/Rybka.png)"></div>
-      <div class="swiper-slide" style="background-image:url(../img/vuetifypng.png)"></div>
-      <div class="swiper-slide" style="background-image:url(../img/vegeisland.png)"></div>
+      
+      <div class="swiper-slide">
+        <img src="../img/Rybka.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/vuecart.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/vuetifypng.png" alt="">
+      </div>
+    
     </div>
     </div>
   
@@ -85,6 +93,11 @@
 <script>
   var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
+    keyboard: {
+    enabled: true,
+    onlyInViewport: false, 
+  },
+  //  autoplay: true,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',

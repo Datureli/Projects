@@ -48,7 +48,6 @@ li a:hover {
 }
 
 .swiper-container {
-  width: 100%;
   padding-top: 40px;
   padding-bottom: 10px;
   display: flex;
@@ -57,13 +56,18 @@ li a:hover {
 .swiper-wrapper {
   width: 300px;
   height: 350px;
+
+
 }
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  max-height: 100%;
   border-radius: 10px;
+
+  img {
+    width: 300px;
+    height: 350px;
+    filter: contrast(130%);
+    border-radius: 10px;
+  }
 }
 
 #git {
