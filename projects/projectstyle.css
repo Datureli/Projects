@@ -96,6 +96,8 @@ li a:hover {
   -webkit-filter: contrast(130%);
           filter: contrast(130%);
   border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 #git {
