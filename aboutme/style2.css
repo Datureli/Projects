@@ -154,6 +154,9 @@ li a:hover {
 p {
   font-size: 30px;
   font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container-fluid {
@@ -169,6 +172,10 @@ p {
   color: #0f0101;
 }
 
+.fontCalc {
+  font-size: calc(20px + 10 * ((100vw - 320px) / 680));
+}
+
 .fa-github:hover,
 .fa-video:hover {
   color: black;
@@ -179,7 +186,7 @@ p {
 .fa-github,
 .fa-video {
   color: #3d3636;
-  font-size: 5vw;
+  font-size: 4vw;
   position: absolute;
 }
 
