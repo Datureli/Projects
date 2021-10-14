@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
   width: 100%;
+  height: auto;
 }
 
 .headerthree {
@@ -148,15 +149,14 @@ li a:hover {
 }
 
 .softskills {
-  margin-left: 7em;
-  margin-top: 20px;
-  width: 450px;
-  height: 400px;
+  margin: 20px 40px auto;
+  width: auto;
+  height: auto;
   color: white;
 }
 
 .softskills h2 {
-  font-size: 45px;
+  font-size: 42px;
   color: black;
 }
 
@@ -196,7 +196,7 @@ li a:hover {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: calc(100vw/10);
+  height: calc(100vw / 10);
   padding: 12px;
   text-align: center;
   -webkit-box-pack: center;
