@@ -173,7 +173,7 @@ p {
 }
 
 .fontCalc {
-  font-size: calc(20px + 10 * ((100vw - 320px) / 680));
+  font-size: calc(18px + 10 * ((100vw - 320px) / 680));
 }
 
 .fa-github:hover,
